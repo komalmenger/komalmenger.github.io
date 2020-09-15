@@ -114,25 +114,7 @@ main {
 }
 
 /* Header */
-.codrops-header {
-	position: relative;
-	z-index: 100;
-}
 
-.codrops-header__links a {
-	display: inline-block;
-	text-transform: lowercase;
-}
-
-.codrops-header__links a:nth-child(2) {
-	margin: 0 0.5rem;
-}
-
-.codrops-header__title {
-	font-size: 1rem;
-	line-height: 1;
-	margin: 0 0 0.75rem 0;
-}
 
 .pageheader {
 	font-size: 2rem;
@@ -418,15 +400,7 @@ main {
 							'... ...'
 							'... codropsheader';
 	}
-	.codrops-header {
-		grid-area: codropsheader;
-		padding: 0;
-		justify-self: end;
-		text-align: right;
-	}
-	.codrops-links {
-		margin: 0;
-	}
+	
 	.frame a {
 		pointer-events: auto;
 	}
