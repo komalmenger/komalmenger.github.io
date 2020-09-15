@@ -7,10 +7,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 body {
 	--color-text: #fff;
-	--color-bg: #101010;
+	/* --color-bg: #101010; */
+	--color-bg: #102e4a;
 	/* --color-bg: #d1becf; */
-	--color-link: #fff;
-	--color-link-hover: #f76b7b;
+	--color-link: #aeecef;
+	--color-link-hover: #6d9dc5;
 	font-family: "Niramit", Arial, sans-serif;
 	min-height: 100vh;
 	color: #57585c;
@@ -91,6 +92,7 @@ a:focus {
 	margin: 0 auto;
 	fill: currentColor;
 }
+
 
 main {
 	position: relative;
